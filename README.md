@@ -27,5 +27,8 @@ This model had three parameters as input, namely, Opening Price, Closing Price a
 •	These two models were run and their performances were compared. 
   
 Difference in r2_score before and after intoduction of polarity score of news sentiment 
+<img src="diffrence.PNG">
+
+
  
 The comparitive results of both the models were found to be significantly differing in terms of variation of everyday price. The basic prediction task of the model is to show the significant change in the market, i.e, the relative ups and downs of market in everyday trading. There can be seen a very clear improvement in root-mean-square error of the model with introduction of the sentiment factor. Without the sentiment data, the predictions hardly show much variation, and hence if, for real stock, we wanted to do after hour trading, we wouldn’t actually know what the market variation is. But knowing the variation, we would stand somewhere in terms of knowledge of market going high or low. 
