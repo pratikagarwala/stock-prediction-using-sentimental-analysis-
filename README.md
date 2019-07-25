@@ -1,4 +1,4 @@
-# stock-prediction-using-sentimental-analysis-
+# stock-prediction-using-sentimental-analysis
 ANALYSIS ON EFFECTS OF NEWS SENTIMENTS ON STOCK PREDICTIONS  
     
 Our project is based on the Natural Language Processing technique called Sentiment Analysis. In this project we chose as stock market and news related to it as our subject of analysis. The abstract of this project is that, we collected news related data for a period of time, and parallelly collected data related to stocks of that period. From the news data, we did an analysis of its polarity, of being positive or negative. And based on that polarity we observed change in daily market because of the news, which earlier wasn’t visible just on the basis of stock data that was fed to the algorithm.  
