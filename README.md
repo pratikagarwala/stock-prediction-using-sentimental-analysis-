@@ -8,7 +8,7 @@ Our model comprised of two parts. One was of sentimental analysis and another mo
 •	For the other part of data gathering, we had to collect stock related data. Initially it was decided to go with a particular company’s stock data, Reliance Industries Limited to name the one. But since our attempt to collect news from NewsAPI ended in a truffle we resorted to DJIA(Dow Jones Industrial Average) data that was collected through Yahoo Finance. This data comprised of Opening, Closing, High and Low, with that Adjusted Closing price, which is the parameter which actually gets affected by the news of everyday.  
  
  without sentimental analysis Prediction Model----->
-                          <img src="diffrence.PNG">
+                          <img src="image.png">
 Sentimental Analysis Model: 
 For this model we chose to go with a rule-based(lexicon based) model. The reason for choosing this kind of a model was that, news data has words that depend on the context, and can be quite unpredictable. Hence the model needs to be constantly updated of the new words(tokens) that come into picture so as to adapt to the evolvement of the model. The model worked as follows.  
 •	For preprocessing part, the news data was as follows: 
