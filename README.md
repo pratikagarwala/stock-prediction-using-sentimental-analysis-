@@ -10,7 +10,7 @@ Our model comprised of two parts. One was of sentimental analysis and another mo
  without sentimental analysis Prediction Model----->      
  
  
-                                                           <img src="image.png">
+                                                                           <img src="image.png">
  
  
  
