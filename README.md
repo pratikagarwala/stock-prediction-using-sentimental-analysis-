@@ -7,11 +7,11 @@ Our model comprised of two parts. One was of sentimental analysis and another mo
 •	For the first model, news data was to be collected. Our first attempt to this was using Twitter tweets data, which we reckoned to collect in a live fashion. For that purpose, we had to use the Twitter API, but since we couldn’t get permission from the site in due time, we didn’t go ahead with it. Next, we aimed at going with news from the world wide web and used another API known as NewsAPI. But we had to drop this as well, the hurdle being, availability of news content through the api. After scrambling the web a little, we found Reddit news data being readily available. And hence our final checkpoint in gathering the data was at Reddit news data. For this process we had to create a “News Extraction” module from scratch in python (attached in the project files). Our final news related data was top 25 news of the day for a period spanning over about 8 years (1989 days) available on Reddit. 
 •	For the other part of data gathering, we had to collect stock related data. Initially it was decided to go with a particular company’s stock data, Reliance Industries Limited to name the one. But since our attempt to collect news from NewsAPI ended in a truffle we resorted to DJIA(Dow Jones Industrial Average) data that was collected through Yahoo Finance. This data comprised of Opening, Closing, High and Low, with that Adjusted Closing price, which is the parameter which actually gets affected by the news of everyday.  
  
- without sentimental analysis Prediction Model----->
+ without sentimental analysis Prediction Model----->      <img src="image.png">
  
  
  
-<img src="image.png">
+
 
 
 Sentimental Analysis Model:
